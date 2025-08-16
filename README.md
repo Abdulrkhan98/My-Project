@@ -1,4 +1,4 @@
-# Frontend Portfolio Website - Arif
+# Frontend Portfolio Website - Abadul Rahaman Khan 
 
 A modern, responsive **frontend developer portfolio** built using **React**, **Tailwind CSS**, and **JavaScript**, featuring **dark/light mode**, smooth scroll navigation, and resume download functionality.
 
