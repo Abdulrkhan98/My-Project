@@ -8,7 +8,7 @@ const Section = () => {
   return (
    <>
     <section id='section' className='scroll-mt-28'>
-        <div className='flex flex-col justify-center items-center gap-7 mt-40'>
+        <div className='flex flex-col justify-center text-center items-center gap-7 mt-40'>
             <motion.h1 className='text-[66px] font-bold' variants={fadeIn("down")} initial="hidden" whileInView={"show"}>Abadul Rahaman Khan </motion.h1>
             <motion.h3 className='text-2xl' variants={fadeIn("down")} initial="hidden" whileInView={"show"}>Frontend Engineer</motion.h3>
             <motion.p className='text-center text-[15px]  font-Ovo px-4  md:text-xl' variants={fadeIn("up")} initial="hidden" whileInView={"show"}>I’m Frontend Engineer with almost 1 years of experience, specialising in React, Next.Js, <br /> Javascript and other Web technologies.</motion.p>
