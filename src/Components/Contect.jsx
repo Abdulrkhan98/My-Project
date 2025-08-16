@@ -39,11 +39,6 @@ const Contact = () => {
       <h3 className='text-5xl mt-2 font-Ovo'>Get in touch</h3>
       <p className='mt-5 text-xs px-2.5 md:text-xl'>I'd love to hear from you! If you have any questions, comments, or feedback, please use the form <br /> below.</p>
       </motion.div>
-    {/* <div id='contect' className='mt-25 text-center scroll-mt-28'>
-      <p className=''>Connect with me</p>
-      <h3 className='text-5xl mt-2 font-Ovo'>Get in touch</h3>
-      <p className='mt-5 text-xs px-2.5 md:text-xl'>I'd love to hear from you! If you have any questions, comments, or feedback, please use the form <br /> below.</p>
-    </div> */}
     <div className='flex flex-col items-center mt-10 gap-5'>
      <form className='flex flex-col items-center mt-10 gap-5' onSubmit={handlesumitbtn}>
       <motion.div className='flex-col flex md:flex md:flex-row gap-5' variants={fadeIn("down")} initial="hidden" whileInView={"show"}>
@@ -57,11 +52,11 @@ const Contact = () => {
      <motion.button className='py-3 px-8 rounded-full border bg-black text-white flex items-center gap-3' variants={fadeIn("down")} initial="hidden" whileInView={"show"}>Submit <IoIosArrowRoundForward  className='h-7 w-7'/></motion.button>
      </form>
      <motion.div className='mt-20'  variants={fadeIn("down")} initial="hidden" whileInView={"show"}>
-      <p className='flex items-center gap-3.5 text-xs md:text-xl text-gray-400' ><MdEmail  className='w-8 h-8 '/>ak4040651@gmail.com</p>
+      <p className='flex items-center gap-3.5 text-xs md:text-xl text-gray-400' ><MdEmail  className='w-8 h-8 '/>abdulrkhan980@gmail.com</p>
      </motion.div>
       <motion.div className='border-b w-80 md:w-165 lg:w-250 border-gray-400 mt-5 mb-10' variants={fadeIn("right")} initial="hidden" whileInView={"show"}></motion.div>
      <motion.div className='flex gap-6 mb-5' variants={fadeIn("right")} initial="hidden" whileInView={"show"}>
-       <a href="https://github.com/Arif-khan9"  target="_blank"> <img className='bg-black rounded-full w-10 h-10' src="github.webp" alt="" /></a>
+       <a href="https://github.com/Abdulrkhan98"  target="_blank"> <img className='bg-black rounded-full w-10 h-10' src="github.webp" alt="" /></a>
        <a href=""> <img  className='h-10 w-10' src="linkedin.webp" alt="" /></a>
       </motion.div>
     </div>
